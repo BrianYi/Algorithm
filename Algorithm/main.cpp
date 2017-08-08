@@ -1,4 +1,4 @@
-#include "alg_common.h"
+﻿#include "alg_common.h"
 
 int main()
 {

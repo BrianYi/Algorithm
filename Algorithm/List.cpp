@@ -1,8 +1,8 @@
-#include "List.h"
+ï»¿#include "List.h"
 ALG_NAMESPACE_BEG
 
 //-------------------------------
-// Ë³Ğò±í
+// é¡ºåºè¡¨
 
 Status InitList_Sq(SqList &L)
 {
@@ -85,7 +85,7 @@ void MergeList_Sq(SqList La, SqList Lb, SqList &Lc)
 }
 
 //-------------------------------
-// µ¥ÏòÁ´±í
+// å•å‘é“¾è¡¨
 Status GetElem_L(struct LNode *L, int i, ElemType &e)
 {
     struct LNode *p = L->next;
@@ -138,7 +138,7 @@ Status ListDelete_L(struct LNode *L, int i, ElemType &e)
 }
 
 /**
- *	ÄæÏò½¨Á¢Á´±í
+ *	é€†å‘å»ºç«‹é“¾è¡¨
  */
 void CreateList_L(struct LNode *L, int n)
 {

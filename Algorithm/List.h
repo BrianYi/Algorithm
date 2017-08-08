@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #include "alg_common.h"
 ALG_NAMESPACE_BEG
 
@@ -8,7 +8,7 @@ ALG_NAMESPACE_BEG
 typedef int ElemType;
 
 /**
- *	Ë³Ğò±í
+ *	é¡ºåºè¡¨
  */
 struct SqList
 {
@@ -23,7 +23,7 @@ int LocateElem_Sq(SqList L, ElemType e, Status(*compare)(ElemType, ElemType));
 void MergeList_Sq(SqList La, SqList Lb, SqList &Lc);
 
 /**
- *	µ¥ÏòÁ´±í
+ *	å•å‘é“¾è¡¨
  */
 struct LNode
 {
@@ -37,7 +37,7 @@ void CreateList_L(struct LNode *L, int n);
 void MergeList_L(struct LNode *La, struct LNode *Lb, struct LNode *Lc);
 
 /**
- *	¾²Ì¬Á´±í
+ *	é™æ€é“¾è¡¨
  */
 #define MAXSIZE 1000
 struct SNode
@@ -51,7 +51,7 @@ void Free_SL(SNode *space, int k);
 int LocateElem_SL(SNode *S, ElemType e);
 
 /**
- *	Ë«ÏòÁ´±í
+ *	åŒå‘é“¾è¡¨
  */
 struct DLNode
 {
