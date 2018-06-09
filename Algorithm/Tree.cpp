@@ -1,12 +1,7 @@
-#include "Tree.h"
+﻿#include "Tree.h"
+
+ALG_NAMESPACE_BEG
 
 
 
-Tree::Tree()
-{
-}
-
-
-Tree::~Tree()
-{
-}
+ALG_NAMESPACE_END
