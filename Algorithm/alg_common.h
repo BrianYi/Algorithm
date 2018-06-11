@@ -2,6 +2,9 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
+#include <random>
+#include <time.h>
+#include <conio.h>
 using namespace std;
 
 #define ALG_NAMESPACE_BEG namespace alg {

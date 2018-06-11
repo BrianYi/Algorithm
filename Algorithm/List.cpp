@@ -147,7 +147,7 @@ void CreateList_L(struct LNode *L, int n)
     for (int i = n; i > 0; i--) 
     {
         struct LNode *p = (struct LNode *)malloc(sizeof(LNode));
-        scanf("%d", &p->data);
+        scanf_s("%d", &p->data);
         p->next = L->next;
         L->next = p;
     }
