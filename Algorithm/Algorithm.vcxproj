@@ -145,6 +145,7 @@
     <ClInclude Include="alg_common.h" />
     <ClInclude Include="GList.h" />
     <ClInclude Include="List.h" />
+    <ClInclude Include="pubDef.h" />
     <ClInclude Include="Queue.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="Tree.h" />
@@ -154,6 +155,7 @@
     <ClCompile Include="List.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="Sequence.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="Tree.cpp" />
   </ItemGroup>
