@@ -59,5 +59,11 @@
     <ClCompile Include="Sequence.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_List.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_Stack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

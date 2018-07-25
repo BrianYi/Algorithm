@@ -158,6 +158,8 @@
     <ClCompile Include="Sequence.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="_List.cpp" />
+    <ClCompile Include="_Stack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

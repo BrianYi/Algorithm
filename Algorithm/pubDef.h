@@ -171,3 +171,10 @@ int Length( LinkList& L )
 	}
 	return i;
 }
+
+#define MaxSize 50
+typedef struct
+{
+	int data[MaxSize];
+	int top;
+}SeqStack;
