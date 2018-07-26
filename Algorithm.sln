@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithm", "Algorithm\Algorithm.vcxproj", "{C7CC34F3-A5B5-4CE5-BB4A-52FA36B293B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第五章-图", "第五章-图\第五章-图.vcxproj", "{9F17BF87-6142-4949-A2A0-BC3E34FB4943}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,19 @@ Global
 		{C7CC34F3-A5B5-4CE5-BB4A-52FA36B293B8}.Release|x64.Build.0 = Release|x64
 		{C7CC34F3-A5B5-4CE5-BB4A-52FA36B293B8}.Release|x86.ActiveCfg = Release|Win32
 		{C7CC34F3-A5B5-4CE5-BB4A-52FA36B293B8}.Release|x86.Build.0 = Release|Win32
+		{9F17BF87-6142-4949-A2A0-BC3E34FB4943}.Debug|x64.ActiveCfg = Debug|x64
+		{9F17BF87-6142-4949-A2A0-BC3E34FB4943}.Debug|x64.Build.0 = Debug|x64
+		{9F17BF87-6142-4949-A2A0-BC3E34FB4943}.Debug|x86.ActiveCfg = Debug|Win32
+		{9F17BF87-6142-4949-A2A0-BC3E34FB4943}.Debug|x86.Build.0 = Debug|Win32
+		{9F17BF87-6142-4949-A2A0-BC3E34FB4943}.Release|x64.ActiveCfg = Release|x64
+		{9F17BF87-6142-4949-A2A0-BC3E34FB4943}.Release|x64.Build.0 = Release|x64
+		{9F17BF87-6142-4949-A2A0-BC3E34FB4943}.Release|x86.ActiveCfg = Release|Win32
+		{9F17BF87-6142-4949-A2A0-BC3E34FB4943}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7F156F3-5332-49AF-92E7-A8842369AB09}
 	EndGlobalSection
 EndGlobal
