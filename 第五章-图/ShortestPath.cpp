@@ -121,21 +121,22 @@ void Floyd(MGraph &M)
 	}
 }
 
-int main()
-{
-	MGraph M;
-	UserInput(DN); // 有向网信息输入
-	CreateDN_M(M); // 创建有向网
-
-	cout << "Dijkstra最短路径算法 :" << endl;
-	for (int i = 0; i < M.vexnum; i++)
-	{
-		cout << "起点为" << M.vexs[i] << " :" << endl;
-		Dijkstra(M, i); // Dijkstra最短路径算法
-	}
-	cout << endl;
-	cout << "Floyd最短路径算法 :" << endl;
-	Floyd(M); // Floyd最短路径算法
-
-	return 0;
-}
+// 
+// int main()
+// {
+// 	MGraph M;
+// 	UserInput(DN); // 有向网信息输入
+// 	CreateDN_M(M); // 创建有向网
+// 
+// 	cout << "Dijkstra最短路径算法 :" << endl;
+// 	for (int i = 0; i < M.vexnum; i++)
+// 	{
+// 		cout << "起点为" << M.vexs[i] << " :" << endl;
+// 		Dijkstra(M, i); // Dijkstra最短路径算法
+// 	}
+// 	cout << endl;
+// 	cout << "Floyd最短路径算法 :" << endl;
+// 	Floyd(M); // Floyd最短路径算法
+// 
+// 	return 0;
+// }

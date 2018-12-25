@@ -7,9 +7,9 @@
 #include <conio.h>
 using namespace std;
 
-#define ALG_NAMESPACE_BEG /*namespace alg {*/
-#define ALG_NAMESPACE_END /*};*/
-#define ALG_NAMESPACE_USE /*using namespace alg;*/
+#define ALG_NAMESPACE_BEG namespace alg {
+#define ALG_NAMESPACE_END };
+#define ALG_NAMESPACE_USE using namespace alg;
 
 #undef  TRUE
 #define TRUE        1
